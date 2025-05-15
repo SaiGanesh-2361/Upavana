@@ -1,0 +1,115 @@
+/* General Styles */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f9f9f9;
+    color: #333;
+}
+
+/* Checkout Section */
+.checkout-section {
+    padding: 50px;
+    max-width: 800px;
+    margin: 0 auto;
+    text-align: center;
+    background-color: #f4f4f9;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.checkout-section h1 {
+    font-size: 2.5rem;
+    color: #006400;
+    margin-bottom: 20px;
+}
+
+/* Final Price Display */
+.final-price {
+    display: flex;
+    justify-content: space-between;
+    font-size: 1.5rem;
+    font-weight: bold;
+    color: #333;
+    padding: 20px 0;
+    border-bottom: 1px solid #ccc;
+}
+
+.final-price p:last-child {
+    color: #006400;
+}
+
+/* Payment Method Section */
+.payment-method {
+    margin: 30px 0;
+}
+
+.payment-method h2 {
+    font-size: 1.8rem;
+    color: #006400;
+    margin-bottom: 15px;
+}
+
+.qr-code {
+    width: 150px;
+    height: 150px;
+    margin-top: 10px;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.payment-method p {
+    font-size: 0.9rem;
+    color: #666;
+    margin-top: 10px;
+}
+
+/* Bank Selection Dropdown */
+#bank-select {
+    width: 60%;
+    padding: 10px;
+    font-size: 1rem;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    margin-top: 10px;
+}
+
+.pay-now {
+    background-color: #32CD32;
+    color: white;
+    padding: 10px 20px;
+    border-radius: 5px;
+    font-weight: bold;
+    border: none;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+    margin-top: 20px;
+}
+
+.pay-now:hover {
+    background-color: #228B22;
+}
+
+/* Footer */
+footer {
+    background-color: #333;
+    color: white;
+    padding: 50px;
+    text-align: center;
+}
+
+.footer-content {
+    display: flex;
+    justify-content: space-between;
+    padding-bottom: 20px;
+}
+
+.footer-content div {
+    width: 30%;
+}
+
+.footer-bottom {
+    margin-top: 20px;
+    font-size: 0.9em;
+}
